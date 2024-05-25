@@ -9,11 +9,11 @@ int main(void)
 	char a = 'a';
 	char z = 'z';
 
-	for (;a <= z; a++)
+	for (; a <= z; a++)
 	{
-		if(a =='e')
+		if (a == 'e')
 			continue;
-		if(a =='q')
+		if (a == 'q')
 			continue;
 		putchar(a);
 	}
