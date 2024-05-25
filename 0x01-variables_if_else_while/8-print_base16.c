@@ -10,12 +10,12 @@ int main(void)
 	int num2 = 9;
 	char a = 'a';
 	char f = 'f';
-	while(num1 <= num2)
+	while (num1 <= num2)
 	{
 		putchar('0' + num1);
 		num1 ++;
 	}
-	while(a <= f)
+	while (a <= f)
 	{
 		putchar(a);
 		a++;
