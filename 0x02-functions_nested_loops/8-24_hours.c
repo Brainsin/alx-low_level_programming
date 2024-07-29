@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
+ * jack_bauer - prints every minute of the day
  *
  * RETURN : 0
  */
@@ -21,5 +21,4 @@ void jack_bauer(void)
 		}
 	}
 	_putchar('\n');
-		
 }

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -entry point
+ * main - used to print a single charater to the screen
  *
- * return : 0
+ * Return: always 0
  */
 int main(void)
 {

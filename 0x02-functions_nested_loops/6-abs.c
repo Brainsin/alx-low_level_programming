@@ -1,23 +1,23 @@
 #include "main.h"
 /**
- * main - entry
- *
- * return : 0
+ * _abs - print that absolute value of a number
+ * @a: represent an integer
+ * Return: always 0
  */
 int _abs(int a)
 {
-	if(a < 0)
+	if (a < 0)
 	{
-		return(-a);
+		return (-a);
 	}
-	else if(a == 0)
+	else if (a == 0)
 	{
-		return(a);
+		return (a);
 	}
 	else
 	{
-		return(a);
+		return (a);
 	}
 	_putchar('\n');
-	return(0);
+	return (0);
 }

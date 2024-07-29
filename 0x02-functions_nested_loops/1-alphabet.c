@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * main - Enrty point
+ * print_alphabet - prints lower case charaters
  *
  * RETURN : 0 success
  */
-void print_alphabet(void)
+void print_alphabet(void)/* this prints a-z(lower case characters*/
 {
 	char i = 'a';
-	while(i != '{')
+
+	while (i != '{')
 	{
 		_putchar(i);
 		i++;
